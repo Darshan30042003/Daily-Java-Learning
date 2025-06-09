@@ -1,0 +1,33 @@
+Java Types:
+   class
+   interface
+   Enum
+   Annotation
+
+Class:it is a blueprint or template to create object
+Basic program:
+         class Demo{
+         public static void main(String[] args) {
+           System.out.println("I am learning java");
+          }
+        }
+  *.we have to save this program as Demo.java.
+
+Tricks:
+
+1.System.out.println(20+20);
+Ans is:40
+2.System.out.println("the value is"+20);
+Ans is:the value is20
+3.System.out.println("the value is"+20+20);
+Ans is:the value is2020(concatination will occurs
+4.System.out.println(20+"is the value");
+Ans is:20is the value
+5.System.out.println(20+20+"is the value");
+Ans is:40is the value
+6.System.out.println("the value is"+(20+20));
+Ans is:the value is40 (() will execute first)
+7.System.out.println("the value is"+(1/2));
+Ans is:the value is0
+8.System.out.println("the value is"+(1/2.0));
+Ans is:the value is0.5
