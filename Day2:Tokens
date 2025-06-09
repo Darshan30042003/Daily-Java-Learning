@@ -1,0 +1,54 @@
+Tokens are the smallest unit of the program
+->in tokens we have
+1.Identifier
+2.Keywords
+3.Literals
+4.Operators
+5.Separators
+6.Comments
+
+1.Identifier:it is the name given for the java program
+
+2.Keywords:it is the predifined words.And in java we have 50 keywors as fallows
+            1.  abstract       2.  assert         3.  boolean        4.  break
+            5.  byte           6.  case           7.  catch          8.  char
+            9.  class          10. const          11. continue       12. default
+           13. do             14. double         15. else           16. enum
+           17. extends        18. final          19. finally        20. float
+           21. for            22. goto           23. if             24. implements
+           25. import         26. instanceof     27. int            28. interface
+           29. long           30. native         31. new            32. package
+           33. private        34. protected      35. public         36. return
+           37. short          38. static         39. strictfp       40. super
+           41. switch         42. synchronized   43. this           44. throw
+           45. throws         46. transient      47. try            48. void
+           49. volatile       50. while
+
+3.Literals:literals are the values which is used to perform some operations
+   1.Numeric:Integer,Decimal
+   2.String:"hello","38383","$83773","A","9"
+   3.Character:'$','A','9'
+   4.Boolean:true,false
+
+4.Operators:Operator is symbol which is used to perform some operations on the operand
+    1.unary:++,--,~,!
+    2.arithmatic:+,-,*,/,%
+    3.shift:<<,>>,>>>
+    4.ralational:<,>,<=,>=,==,!=
+    5.bitwise:&,^,|
+    6.logical:&&,||
+    7.ternary:?,:
+    8.assignment:=,+=,-+,/=,%=
+
+
+5.Separators:separators are used to separate the given code.
+    1.Braces:{}
+    2.Bracket:[]
+    3.Pharanthesis:()
+    4.Semicolon:;
+    5.Comma:,
+
+
+6.Comments:it is used to provide additional information for the program.
+    1.single line://.........
+    2.Block Comment:/*..................*/
