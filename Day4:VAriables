@@ -1,0 +1,59 @@
+Variable:it is named memory location which can store value or data and it can change n number of tymes during Execution
+
+
+VAriableType/DataType:2 types
+  1.primitive         2.Non primitive or Referencetype or classtype
+    *Byte                 *Array
+    *short                *String or Any classtype
+    *int
+    *long
+    *float
+    *double
+    *char
+    *boolean
+
+
+
+VAriables or Data member
+*Variable Declaration:
+   int a;
+
+*VAriable Initialization:
+   a=10;
+
+*Variable Declaration with initialization:
+  int a=10;
+
+*Variable Utilization:
+  System.out.println(a);
+
+*VAriable Re-Initialization:
+   int x=10;
+       x=20;
+  System.out.println(a);//20 is the ans
+
+
+*copying the one variable from another variable:
+    int x=10;
+        y=x;
+    System.out.println(x);//10
+    System.out.println(y);//10
+
+
+local Variables:Any variable is declared within the method 
+class Sample{
+public static void main(String[] args){
+int a=10;
+sop(a);
+}
+}
+
+
+Gloal variables:Any variable is declared outside the method and inside the class
+class Sample{
+int a=10;
+public static void main(String[] args){
+sop(a);
+}
+}
+
