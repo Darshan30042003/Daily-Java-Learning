@@ -23,6 +23,7 @@ VAriables or Data member
 
 *Variable Declaration with initialization:
   int a=10;
+  // Final double pi=3.142;
 
 *Variable Utilization:
   System.out.println(a);
