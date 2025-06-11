@@ -1,0 +1,84 @@
+Methods or Function member:Method is a block of statement which will get executed whenver it is called or invoked.
+
+
+SYNTAX:-
+
+Acess_Specifier                      Modifier                  return type                                method_name                                  (argument)
+*public                              *static                   *void  (return;)                           *identifier any name                          optional
+*private                             *Non-static               *int   (return int;)                        (addNumber like camel_case)
+*protected                                                     *double (return double;)
+*default or package level                                      *char   (return char;)
+                                                               *float  (return float;)
+                                                               *String (return String;)
+                                                               *classtype (return object;)
+
+
+1.Normal method:
+class Sample{
+    public static void main(String[] args){
+        String str="java";
+        char[] ch=str.toCharArray();
+        int i=0,j=ch.length-1;
+        while(i<j){
+            char temp=ch[i];
+                 ch[i]=ch[j];
+                 ch[j]=temp;
+                 i++;
+                 j--;
+        }
+        // System.out.println(ch); it is in type of char
+        str=new String(ch);//here we will get as string type
+        System.out.println(str);
+    }
+}
+o/p:avaj
+
+2.Method with parameter:
+  class Sample{
+    public static void reversestring(String str){
+        
+        char[] ch=str.toCharArray();
+        int i=0,j=ch.length-1;
+        while(i<j){
+            char temp=ch[i];
+                 ch[i]=ch[j];
+                 ch[j]=temp;
+                 i++;
+                 j--;
+        }
+        // System.out.println(ch);
+        str=new String(ch);
+        System.out.println(str);
+    }
+    public static void main(String[] args){
+        reversestring("java");
+    }
+}
+o/p:avaj
+
+3.Method with retun type:
+  class Sample{
+    public static String reversestring(String str){
+        
+        char[] ch=str.toCharArray();
+        int i=0,j=ch.length-1;
+        while(i<j){
+            char temp=ch[i];
+                 ch[i]=ch[j];
+                 ch[j]=temp;
+                 i++;
+                 j--;
+        }
+        
+        str=new String(ch);
+        return str;
+    }
+    public static void main(String[] args){
+       
+        String x=reversestring("java");
+        
+        System.out.println(x);
+    }
+}
+
+o/p:avaj
