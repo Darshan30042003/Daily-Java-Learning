@@ -1,0 +1,78 @@
+Static-
+*Any member declared with a keyword static is called as static member of the class
+*Static is one copy
+*all the static members will get stored in the static pool area
+*static is always associated with the class
+*whenever we want to access static member from one class to anoyher classs we have to use className.method_name(); or  className.variable_name();
+class Sample{
+    static int a=10;
+    static void add(){
+        System.out.println(a+a);
+    }
+    public static void main(String[]args){
+        System.out.println(a);
+        add();
+    }
+}
+o/p:10
+    20
+
+class Demo {
+    static void add() {
+        int a = 10;
+        int b = 20;
+        int c = a + b;
+        System.out.println(c);
+    }
+}
+
+public class Main {  // Must match file name in online compiler
+    public static void main(String[] args) {
+        Demo.add();
+    }
+}
+o/p:30
+
+Non-static-
+Any member declared without a keyword static is called as Non-Static member of the class
+*Non static is multiple copy
+*Non static is alwys associated with the object
+*all Non static members will get stored in the Heap Memory
+*when we access fromm nonstatic to stattic
+   object.variable_name;
+   object.method_name();
+
+SYNTAX:new class_name();for object creation
+
+class Sample{
+    int a=10;
+    void Disp(){
+        System.out.println("Hello");
+    }
+    public static void main(String[] args){
+        System.out.println(new Sample().a);
+        new Sample().Disp();
+    }
+}
+o/p:10
+    Hello
+
+
+Reference VAriable:it is a Special type of variable which is used to store the object address
+*A reference variable can hold either the null or object address.
+
+Sntax:Sample s1=new Sample();
+*s1 is the reference variable
+
+class Sample{
+    void add(){
+        int a=10;
+        int b=20;
+        int c=a+b;
+        System.out.println(c);
+    }
+    public static void main(String[] args){
+        Sample s1=new Sample();
+        s1.add();
+    }
+}
